@@ -1,0 +1,157 @@
+@page
+@{
+    ViewData["Title"] = "Precision Plastic Manufacturing";
+}
+
+<section class="hero">
+    <div class="hero-media hero-media-1 active"></div>
+    <div class="hero-media hero-media-2"></div>
+    <div class="hero-media hero-media-3"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-shell">
+        <div class="hero-content reveal">
+            <div class="slider-meta">
+                <div class="slider-bars"><span class="active"></span><span></span><span></span></div>
+                <small id="slideNumber">01 / 03</small>
+            </div>
+
+            <div class="pill"><i></i> QUALITY ASSURED & PRECISION MANUFACTURED</div>
+
+            <h1>PRECISION<br /><em>PLASTIC</em> MANUFACTURING</h1>
+
+            <p>Reliable plastic packaging and injection-moulded solutions engineered for quality, consistency and high-volume production.</p>
+
+            <div class="hero-actions">
+                <a class="button button-light" asp-page="/Contact">START A PROJECT <span>→</span></a>
+                <a class="button button-outline" asp-page="/Products">VIEW PRODUCTS</a>
+            </div>
+        </div>
+
+        <div class="slider-controls">
+            <button id="prevSlide" aria-label="Previous slide">‹</button>
+            <button id="nextSlide" aria-label="Next slide">›</button>
+        </div>
+    </div>
+</section>
+
+<section class="ticker">
+    <div class="ticker-track">
+        <span>24/7 PRECISION PRODUCTION</span><span>◇</span>
+        <span>QUALITY CONTROL</span><span>◇</span>
+        <span>HIGH-VOLUME CAPACITY</span><span>◇</span>
+        <span>ZERO-DEFECT MINDSET</span><span>◇</span>
+        <span>CUSTOM MOULDING</span><span>◇</span>
+        <span>24/7 PRECISION PRODUCTION</span><span>◇</span>
+        <span>QUALITY CONTROL</span><span>◇</span>
+    </div>
+</section>
+
+<section class="section products-section" id="products">
+    <div class="section-heading reveal">
+        <div>
+            <span class="eyebrow">OUR PRODUCTS</span>
+            <h2>BUILT FOR <em>PERFORMANCE</em></h2>
+        </div>
+        <a class="text-link" asp-page="/Products">VIEW FULL RANGE <span>↗</span></a>
+    </div>
+
+    <div class="product-mosaic">
+        <a class="product-card product-large reveal" asp-page="/Products">
+            <div class="card-image caps-image"></div>
+            <div class="card-shade"></div>
+            <div class="card-copy">
+                <span class="card-tag">TOP SELLER</span>
+                <h3>CAPS &<br />CLOSURES</h3>
+                <p>Precision threads, reliable sealing and consistent dimensions.</p>
+                <span class="card-arrow">→</span>
+            </div>
+        </a>
+
+        <a class="product-card product-small reveal" asp-page="/Products">
+            <div class="card-image bottle-image"></div>
+            <div class="card-shade light"></div>
+            <div class="card-copy dark">
+                <span class="card-tag green">COMPREHENSIVE RANGE</span>
+                <h3>PLASTIC<br />PRODUCTS</h3>
+                <span class="card-arrow">→</span>
+            </div>
+        </a>
+
+        <a class="product-card product-small dark-card reveal" asp-page="/Products">
+            <div class="card-image handling-image"></div>
+            <div class="card-shade"></div>
+            <div class="card-copy">
+                <span class="card-tag">CUSTOM SOLUTIONS</span>
+                <h3>INDUSTRIAL<br />COMPONENTS</h3>
+                <span class="card-arrow">→</span>
+            </div>
+        </a>
+
+        <a class="product-card product-tall reveal" asp-page="/Products">
+            <div class="card-image machine-image"></div>
+            <div class="card-shade light"></div>
+            <div class="card-copy dark">
+                <span class="card-tag green">PRECISION ASSETS</span>
+                <h3>MOULDED<br />SOLUTIONS</h3>
+                <span class="card-arrow">→</span>
+            </div>
+        </a>
+    </div>
+</section>
+
+<section class="statement" id="capabilities">
+    <div class="statement-number">01</div>
+    <div class="statement-copy reveal">
+        <span class="eyebrow">WHY DVM POLYPLAST</span>
+        <h2>QUALITY IS NOT A<br /><em>CHECKPOINT.</em><br />IT'S THE PROCESS.</h2>
+        <p>From material selection and mould setup to production and final inspection, every stage is designed around repeatable quality.</p>
+        <a class="text-link" asp-page="/About">DISCOVER OUR APPROACH <span>↗</span></a>
+    </div>
+</section>
+
+<section class="stats">
+    <div class="stat reveal"><strong>100%</strong><span>QUALITY FOCUS</span></div>
+    <div class="stat reveal"><strong>4</strong><span>INJECTION MACHINES</span></div>
+    <div class="stat reveal"><strong>200T</strong><span>MAX MACHINE CAPACITY</span></div>
+    <div class="stat reveal"><strong>24/7</strong><span>PRODUCTION READY</span></div>
+</section>
+
+<section class="machines-section section" id="infrastructure">
+    <div class="section-heading reveal">
+        <div>
+            <span class="eyebrow">INFRASTRUCTURE</span>
+            <h2>MACHINES THAT<br /><em>DELIVER.</em></h2>
+        </div>
+        <a class="text-link" asp-page="/Infrastructure">VIEW INFRASTRUCTURE <span>↗</span></a>
+    </div>
+
+    <div class="machine-grid">
+        <div class="machine reveal"><span>01</span><h3>TOSHIBA</h3><strong>200 TON</strong><p>High-precision injection moulding.</p></div>
+        <div class="machine reveal"><span>02</span><h3>NILGIRI</h3><strong>150 TON</strong><p>Consistent, efficient production.</p></div>
+        <div class="machine reveal"><span>03</span><h3>ELECTRONICA</h3><strong>120 TON</strong><p>Reliable moulding for varied parts.</p></div>
+        <div class="machine reveal"><span>04</span><h3>ELECTRONICA</h3><strong>110 TON</strong><p>Flexible production capacity.</p></div>
+    </div>
+</section>
+
+<section class="clients section" id="clients">
+    <div class="center-heading reveal">
+        <span class="eyebrow">TRUSTED PARTNERS</span>
+        <h2>BUILT ON <em>RELIABILITY.</em></h2>
+    </div>
+    <div class="client-row">
+        <div class="client reveal">DVM</div>
+        <div class="client reveal">PARTNER</div>
+        <div class="client reveal">QUALITY</div>
+        <div class="client reveal">INDUSTRY</div>
+        <div class="client reveal">TRUST</div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="cta-inner reveal">
+        <span class="eyebrow">HAVE A REQUIREMENT?</span>
+        <h2>LET'S MAKE<br /><em>IT POSSIBLE.</em></h2>
+        <a class="button button-light" asp-page="/Contact">GET A QUOTE <span>↗</span></a>
+    </div>
+</section>

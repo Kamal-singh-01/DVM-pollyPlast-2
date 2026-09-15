@@ -1,0 +1,47 @@
+@page
+@{
+    ViewData["Title"] = "Products";
+}
+
+<section class="page-hero">
+    <div class="page-hero-bg products-bg"></div>
+    <div class="hero-overlay"></div>
+    <div class="page-hero-content">
+        <span class="pill"><i></i> PRODUCT RANGE</span>
+        <h1>PRECISION<br /><em>PRODUCTS.</em></h1>
+        <p>Plastic components and packaging solutions for industrial and commercial applications.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="section-heading reveal">
+        <div><span class="eyebrow">WHAT WE MAKE</span><h2>SELECT A<br /><em>PRODUCT.</em></h2></div>
+        <p class="heading-note">Click any card to view more information.</p>
+    </div>
+
+    <div class="catalog-grid">
+        <button class="catalog-card reveal" data-product="Caps & Closures" data-description="Precision-moulded caps and closures designed for reliable sealing, fit and repeatable dimensions.">
+            <div class="catalog-image caps-image"></div><span>01</span><h3>CAPS & CLOSURES</h3><p>Packaging components</p><b>VIEW DETAILS ↗</b>
+        </button>
+        <button class="catalog-card reveal" data-product="Plastic Products" data-description="Custom plastic parts and packaging components produced to customer drawings and specifications.">
+            <div class="catalog-image bottle-image"></div><span>02</span><h3>PLASTIC PRODUCTS</h3><p>Custom moulded components</p><b>VIEW DETAILS ↗</b>
+        </button>
+        <button class="catalog-card reveal" data-product="Industrial Components" data-description="Durable injection-moulded parts for industrial applications where dimensional consistency matters.">
+            <div class="catalog-image handling-image"></div><span>03</span><h3>INDUSTRIAL COMPONENTS</h3><p>Engineered parts</p><b>VIEW DETAILS ↗</b>
+        </button>
+        <button class="catalog-card reveal" data-product="Custom Moulding" data-description="Flexible production for customer-specific moulding requirements, volumes and materials.">
+            <div class="catalog-image machine-image"></div><span>04</span><h3>CUSTOM MOULDING</h3><p>Made to requirement</p><b>VIEW DETAILS ↗</b>
+        </button>
+    </div>
+</section>
+
+<div class="modal" id="productModal" aria-hidden="true">
+    <div class="modal-backdrop"></div>
+    <div class="modal-box">
+        <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+        <span class="eyebrow">DVM POLYPLAST</span>
+        <h2 id="modalTitle">Product</h2>
+        <p id="modalDescription"></p>
+        <a class="button button-dark" asp-page="/Contact">SEND ENQUIRY <span>↗</span></a>
+    </div>
+</div>
