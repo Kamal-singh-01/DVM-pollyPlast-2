@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DVM-PolyPlast")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4996a954540ecfc38ee9e11fd2d0f4314d32ca33")]
 [assembly: System.Reflection.AssemblyProductAttribute("DVM-PolyPlast")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DVM-PolyPlast")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

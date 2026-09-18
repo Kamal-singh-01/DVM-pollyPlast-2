@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/kamal/Downloads/DVM-PolyPlast-Website/DVM-PolyPlast.csproj": {}
+    "/media/kamal/Secondary/DVM-pollyPlast-2/DVM-PolyPlast.csproj": {}
   },
   "projects": {
-    "/home/kamal/Downloads/DVM-PolyPlast-Website/DVM-PolyPlast.csproj": {
+    "/media/kamal/Secondary/DVM-pollyPlast-2/DVM-PolyPlast.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/kamal/Downloads/DVM-PolyPlast-Website/DVM-PolyPlast.csproj",
+        "projectUniqueName": "/media/kamal/Secondary/DVM-pollyPlast-2/DVM-PolyPlast.csproj",
         "projectName": "DVM-PolyPlast",
-        "projectPath": "/home/kamal/Downloads/DVM-PolyPlast-Website/DVM-PolyPlast.csproj",
+        "projectPath": "/media/kamal/Secondary/DVM-pollyPlast-2/DVM-PolyPlast.csproj",
         "packagesPath": "/home/kamal/.nuget/packages/",
-        "outputPath": "/home/kamal/Downloads/DVM-PolyPlast-Website/obj/",
+        "outputPath": "/media/kamal/Secondary/DVM-pollyPlast-2/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/kamal/.nuget/NuGet/NuGet.Config"

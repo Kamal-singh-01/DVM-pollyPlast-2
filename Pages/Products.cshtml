@@ -1,3 +1,4 @@
+
 @page
 @{
     ViewData["Title"] = "Products";
@@ -6,42 +7,286 @@
 <section class="page-hero">
     <div class="page-hero-bg products-bg"></div>
     <div class="hero-overlay"></div>
+
     <div class="page-hero-content">
-        <span class="pill"><i></i> PRODUCT RANGE</span>
-        <h1>PRECISION<br /><em>PRODUCTS.</em></h1>
-        <p>Plastic components and packaging solutions for industrial and commercial applications.</p>
+        <span class="pill">
+            <i></i> PRODUCT RANGE
+        </span>
+
+        <h1>
+            PRECISION<br />
+            <em>PRODUCTS.</em>
+        </h1>
+
+        <p>
+            Precision-moulded plastic components and packaging
+            solutions manufactured for reliable performance.
+        </p>
     </div>
 </section>
 
-<section class="section">
+
+<section class="section products-showcase">
+
     <div class="section-heading reveal">
-        <div><span class="eyebrow">WHAT WE MAKE</span><h2>SELECT A<br /><em>PRODUCT.</em></h2></div>
-        <p class="heading-note">Click any card to view more information.</p>
+        <div>
+            <span class="eyebrow">WHAT WE MAKE</span>
+
+            <h2>
+                OUR<br />
+                <em>PRODUCTS.</em>
+            </h2>
+        </div>
+
+        <p class="heading-note">
+            Explore our range of precision plastic products.
+            Click any product to send an enquiry.
+        </p>
     </div>
 
-    <div class="catalog-grid">
-        <button class="catalog-card reveal" data-product="Caps & Closures" data-description="Precision-moulded caps and closures designed for reliable sealing, fit and repeatable dimensions.">
-            <div class="catalog-image caps-image"></div><span>01</span><h3>CAPS & CLOSURES</h3><p>Packaging components</p><b>VIEW DETAILS ↗</b>
-        </button>
-        <button class="catalog-card reveal" data-product="Plastic Products" data-description="Custom plastic parts and packaging components produced to customer drawings and specifications.">
-            <div class="catalog-image bottle-image"></div><span>02</span><h3>PLASTIC PRODUCTS</h3><p>Custom moulded components</p><b>VIEW DETAILS ↗</b>
-        </button>
-        <button class="catalog-card reveal" data-product="Industrial Components" data-description="Durable injection-moulded parts for industrial applications where dimensional consistency matters.">
-            <div class="catalog-image handling-image"></div><span>03</span><h3>INDUSTRIAL COMPONENTS</h3><p>Engineered parts</p><b>VIEW DETAILS ↗</b>
-        </button>
-        <button class="catalog-card reveal" data-product="Custom Moulding" data-description="Flexible production for customer-specific moulding requirements, volumes and materials.">
-            <div class="catalog-image machine-image"></div><span>04</span><h3>CUSTOM MOULDING</h3><p>Made to requirement</p><b>VIEW DETAILS ↗</b>
-        </button>
-    </div>
-</section>
 
-<div class="modal" id="productModal" aria-hidden="true">
-    <div class="modal-backdrop"></div>
-    <div class="modal-box">
-        <button class="modal-close" id="modalClose" aria-label="Close">×</button>
-        <span class="eyebrow">DVM POLYPLAST</span>
-        <h2 id="modalTitle">Product</h2>
-        <p id="modalDescription"></p>
-        <a class="button button-dark" asp-page="/Contact">SEND ENQUIRY <span>↗</span></a>
-    </div>
+    <div class="product-showcase-grid">
+
+
+        <!-- PRODUCT 01 -->
+        <a class="product-showcase-card reveal"
+           asp-page="/Contact"
+           asp-route-product="CTC Cap - 29/21mm">
+
+           <div class="product-showcase-image">
+    <img src="~/images/ctc-cap-29-21.jpeg" alt="CTC Cap 29/21 mm" />
 </div>
+
+            <div class="product-showcase-content">
+
+                <span class="product-number">01</span>
+
+                <h3>CTC CAP</h3>
+
+                <p class="product-description">
+                    Precision-moulded CTC cap designed for
+                    consistent dimensions and reliable sealing.
+                </p>
+
+                <div class="product-specs">
+
+                    <div>
+                        <span>SIZE</span>
+                        <strong>29/21 mm</strong>
+                    </div>
+
+                    <div>
+                        <span>WEIGHT</span>
+                        <strong>3 gm</strong>
+                    </div>
+
+                    <div>
+                        <span>PRICE</span>
+                        <strong>₹0.69 + GST</strong>
+                    </div>
+
+                </div>
+
+                <div class="product-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </div>
+
+            </div>
+        </a>
+
+
+        <!-- PRODUCT 02 -->
+        <a class="product-showcase-card reveal"
+           asp-page="/Contact"
+           asp-route-product="CTC Cap - 36/29mm">
+
+           <div class="product-showcase-image">
+    <img src="~/images/ctc-cap-36-29.webp" alt="CTC Cap 29/21 mm" />
+</div>
+
+            <div class="product-showcase-content">
+
+                <span class="product-number">02</span>
+
+                <h3>CTC CAP</h3>
+
+                <p class="product-description">
+                    CTC cap with a larger size specification,
+                    manufactured for consistent fit and performance.
+                </p>
+
+                <div class="product-specs">
+
+                    <div>
+                        <span>SIZE</span>
+                        <strong>36/29 mm</strong>
+                    </div>
+
+                    <div>
+                        <span>WEIGHT</span>
+                        <strong>5 gm</strong>
+                    </div>
+
+                    <div>
+                        <span>PRICE</span>
+                        <strong>₹1.10 + GST</strong>
+                    </div>
+
+                </div>
+
+                <div class="product-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </div>
+
+            </div>
+        </a>
+
+
+        <!-- PRODUCT 03 -->
+        <a class="product-showcase-card reveal"
+           asp-page="/Contact"
+           asp-route-product="Butterfly Cap with Handle - 46mm">
+
+            <div class="product-showcase-image">
+    <img src="~/images/butterflyCap.jpeg" alt="CTC Cap 29/21 mm" />
+</div>
+
+            <div class="product-showcase-content">
+
+                <span class="product-number">03</span>
+
+                <h3>BUTTERFLY CAP WITH HANDLE</h3>
+
+                <p class="product-description">
+                    Butterfly cap with integrated handle designed
+                    for convenient handling and reliable application.
+                </p>
+
+                <div class="product-specs">
+
+                    <div>
+                        <span>SIZE</span>
+                        <strong>46 mm</strong>
+                    </div>
+
+                    <div>
+                        <span>WEIGHT</span>
+                        <strong>11 gm</strong>
+                    </div>
+
+                    <div>
+                        <span>PRICE</span>
+                        <strong>₹2.10 + GST</strong>
+                    </div>
+
+                </div>
+
+                <div class="product-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </div>
+
+            </div>
+        </a>
+
+
+        <!-- PRODUCT 04 -->
+        <a class="product-showcase-card reveal"
+           asp-page="/Contact"
+           asp-route-product="2 Ltr Bottle Handle - 28mm">
+
+           <div class="product-showcase-image">
+    <img src="~/images/bottle-handle-2ltr.jpeg" alt="CTC Cap 29/21 mm" />
+</div>
+
+            <div class="product-showcase-content">
+
+                <span class="product-number">04</span>
+
+                <h3>2 LTR BOTTLE HANDLE</h3>
+
+                <p class="product-description">
+                    Lightweight bottle handle designed for
+                    convenient handling of 2 litre bottles.
+                </p>
+
+                <div class="product-specs">
+
+                    <div>
+                        <span>SIZE</span>
+                        <strong>28 mm</strong>
+                    </div>
+
+                    <div>
+                        <span>WEIGHT</span>
+                        <strong>1.2 gm</strong>
+                    </div>
+
+                    <div>
+                        <span>PRICE</span>
+                        <strong>₹0.27 + GST</strong>
+                    </div>
+
+                </div>
+
+                <div class="product-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </div>
+
+            </div>
+        </a>
+
+
+        <!-- PRODUCT 05 -->
+        <a class="product-showcase-card reveal"
+           asp-page="/Contact"
+           asp-route-product="Bubble Top-Cap - 24mm">
+
+           <div class="product-showcase-image">
+    <img src="~/images/bubble-top-cap.jpeg" alt="CTC Cap 29/21 mm" />
+</div>
+
+            <div class="product-showcase-content">
+
+                <span class="product-number">05</span>
+
+                <h3>BUBBLE TOP-CAP</h3>
+
+                <p class="product-description">
+                    Precision-moulded bubble top-cap designed
+                    for consistent dimensions and application.
+                </p>
+
+                <div class="product-specs">
+
+                    <div>
+                        <span>SIZE</span>
+                        <strong>24 mm</strong>
+                    </div>
+
+                    <div>
+                        <span>WEIGHT</span>
+                        <strong>3.2 gm</strong>
+                    </div>
+
+                    <div>
+                        <span>PRICE</span>
+                        <strong>₹0.65 + GST</strong>
+                    </div>
+
+                </div>
+
+                <div class="product-enquire">
+                    ENQUIRE NOW
+                    <span>↗</span>
+                </div>
+
+            </div>
+        </a>
+
+    </div>
+
+</section>
